@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "e65d9fe1-4e0e-40f6-a0d5-f87942fc9222",
+		"name": "URL-shortner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29494934"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"originalUrl\": \"https://aimerz.ai\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/shorten",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"shorten"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
